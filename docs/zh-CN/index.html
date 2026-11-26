@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome Agent Workflows · 简体中文</title>
+<meta name="description" content="与 AI 编程智能体协作的可复用方法：计划与规格、任务队列、可复用的提示词和技能、评审检查点，以及等待人工确认的步骤。">
+<link rel="canonical" href="https://thirstyeggplant.github.io/awesome-agent-workflows/zh-CN/">
+<link rel="alternate" hreflang="en" href="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<link rel="alternate" hreflang="zh-CN" href="https://thirstyeggplant.github.io/awesome-agent-workflows/zh-CN/">
+<link rel="alternate" hreflang="es" href="https://thirstyeggplant.github.io/awesome-agent-workflows/es/">
+<link rel="alternate" hreflang="ja" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ja/">
+<link rel="alternate" hreflang="ko" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ko/">
+<link rel="alternate" hreflang="pt-BR" href="https://thirstyeggplant.github.io/awesome-agent-workflows/pt-BR/">
+<link rel="alternate" hreflang="fr" href="https://thirstyeggplant.github.io/awesome-agent-workflows/fr/">
+<link rel="alternate" hreflang="de" href="https://thirstyeggplant.github.io/awesome-agent-workflows/de/">
+<link rel="alternate" hreflang="hi" href="https://thirstyeggplant.github.io/awesome-agent-workflows/hi/">
+<link rel="alternate" hreflang="bn" href="https://thirstyeggplant.github.io/awesome-agent-workflows/bn/">
+<link rel="alternate" hreflang="id" href="https://thirstyeggplant.github.io/awesome-agent-workflows/id/">
+<link rel="alternate" hreflang="ar" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ar/">
+<link rel="alternate" hreflang="x-default" href="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<meta property="og:title" content="Awesome Agent Workflows">
+<meta property="og:description" content="与 AI 编程智能体协作的可复用方法：计划与规格、任务队列、可复用的提示词和技能、评审检查点，以及等待人工确认的步骤。">
+<meta property="og:url" content="https://thirstyeggplant.github.io/awesome-agent-workflows/zh-CN/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍆</text></svg>">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="top"><div class="bar">
+  <a class="brand" href="../"><span class="dot"></span>Awesome Agent Workflows</a>
+  <label class="search"><input id="q" type="search" placeholder="筛选链接…" aria-label="筛选链接…"></label>
+  <select id="lang" aria-label="语言"><option value="../">English</option>
+<option value="../zh-CN/" selected>简体中文</option>
+<option value="../es/">Español</option>
+<option value="../ja/">日本語</option>
+<option value="../ko/">한국어</option>
+<option value="../pt-BR/">Português (BR)</option>
+<option value="../fr/">Français</option>
+<option value="../de/">Deutsch</option>
+<option value="../hi/">हिन्दी</option>
+<option value="../bn/">বাংলা</option>
+<option value="../id/">Bahasa Indonesia</option>
+<option value="../ar/">العربية</option></select>
+  <a class="gh" href="https://github.com/thirstyeggplant/awesome-agent-workflows">在 GitHub 上查看</a>
+</div></header>
+<section class="hero"><h1>Awesome Agent Workflows</h1><p>与 AI 编程智能体协作的可复用方法：计划与规格、任务队列、可复用的提示词和技能、评审检查点，以及等待人工确认的步骤。</p><p class="note">本页译自英文版。工具和网站名称保留原文。</p></section>
+<div class="layout">
+<nav class="toc" aria-label="目录"><h2>目录</h2>
+<a class="sub" href="#featured">精选推荐</a>
+<a class="sub" href="#principles-and-guides">原则与指南</a>
+<a class="sub" href="#instruction-files-and-standards">指令文件与标准</a>
+<a class="sub" href="#planning-and-spec-driven-development">规划与规格驱动开发</a>
+<a class="sub" href="#task-tracking-for-agents">面向智能体的任务跟踪</a>
+<a class="sub" href="#reusable-prompts-skills-and-subagents">可复用的提示词、技能和子智能体</a>
+<a class="sub" href="#review-and-approval">评审与批准</a>
+<a class="sub" href="#running-agents-side-by-side">并行运行智能体</a>
+<a class="sub" href="#agents-in-ci">CI 中的智能体</a>
+<a class="sub" href="#frameworks-with-a-person-in-the-loop">有人参与环节的框架</a>
+<a class="sub" href="#related-lists">相关列表</a>
+</nav>
+<main>
+<blockquote>
+<p>与 AI 编程智能体协作的可复用方法：计划与规格、任务队列、可复用的提示词和技能、评审检查点，以及等待人工确认的步骤。</p>
+</blockquote>
+<p>本列表关注的是智能体周围的工作，而不是智能体本身：任务如何被写下、拆分、移交、检查和批准。除非另有说明，条目均为开源或可免费阅读。</p>
+<h2 id="contents">目录</h2>
+<ul>
+<li><a href="#featured">精选推荐</a></li>
+<li><a href="#principles-and-guides">原则与指南</a></li>
+<li><a href="#instruction-files-and-standards">指令文件与标准</a></li>
+<li><a href="#planning-and-spec-driven-development">规划与规格驱动开发</a></li>
+<li><a href="#task-tracking-for-agents">面向智能体的任务跟踪</a></li>
+<li><a href="#reusable-prompts-skills-and-subagents">可复用的提示词、技能和子智能体</a></li>
+<li><a href="#review-and-approval">评审与批准</a></li>
+<li><a href="#running-agents-side-by-side">并行运行智能体</a></li>
+<li><a href="#agents-in-ci">CI 中的智能体</a></li>
+<li><a href="#frameworks-with-a-person-in-the-loop">有人参与环节的框架</a></li>
+<li><a href="#related-lists">相关列表</a></li>
+</ul>
+<h2 id="featured">精选推荐</h2>
+<ul>
+<li><a href="https://github.com/thirstyeggplant/aubergine">Aubergine</a> - 浏览器画布上的终端，带有可等待所有者批准的工作流步骤、任务队列，以及使用前需审阅的草稿。<em>（由本列表的维护者开发。）</em></li>
+</ul>
+<h2 id="principles-and-guides">原则与指南</h2>
+<ul>
+<li><a href="https://www.anthropic.com/engineering/building-effective-agents">构建高效的智能体</a> - Anthropic 总结的工作流与智能体模式，从提示词链到编排者与执行者。</li>
+<li><a href="https://www.anthropic.com/engineering/claude-code-best-practices">Claude Code 最佳实践</a> - 探索、规划、编码、提交，并设有人可以介入的检查点。</li>
+<li><a href="https://github.com/humanlayer/12-factor-agents">12-Factor Agents</a> - 让智能体足以用于生产环境的原则，包括把联系人工作为一次工具调用。</li>
+</ul>
+<h2 id="instruction-files-and-standards">指令文件与标准</h2>
+<ul>
+<li><a href="https://agents.md">AGENTS.md</a> - 仓库中的一个普通 Markdown 文件，告诉任何编程智能体如何构建、测试并遵循项目约定。</li>
+<li><a href="https://modelcontextprotocol.io">Model Context Protocol</a> - 为智能体提供工具和上下文的开放协议，另见其 <a href="https://github.com/modelcontextprotocol/modelcontextprotocol">规范</a>.</li>
+<li><a href="https://github.com/anthropics/skills">Agent Skills</a> - 由指令和脚本组成的文件夹，智能体在任务需要时加载。</li>
+<li><a href="https://docs.claude.com/en/docs/claude-code/hooks">Claude Code hooks</a> - 在智能体回合的固定时刻运行的命令，用于不应依赖模型记忆的检查。</li>
+</ul>
+<h2 id="planning-and-spec-driven-development">规划与规格驱动开发</h2>
+<ul>
+<li><a href="https://github.com/github/spec-kit">Spec Kit</a> - GitHub 的工具包，在智能体写代码之前先写好规格、计划和任务。</li>
+<li><a href="https://github.com/Fission-AI/OpenSpec">OpenSpec</a> - 规格驱动开发：每个变更都以仓库中的文件形式提出、评审和归档。</li>
+<li><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD Method</a> - 由智能体扮演的敏捷角色，从分析师、架构师到开发者和测试。</li>
+<li><a href="https://github.com/buildermethods/agent-os">Agent OS</a> - 把代码库的标准和规格写成智能体可依据的文件。</li>
+<li><a href="https://github.com/obra/superpowers">Superpowers</a> - 一个技能库，引导智能体完成头脑风暴、规划、测试驱动开发和评审。</li>
+</ul>
+<h2 id="task-tracking-for-agents">面向智能体的任务跟踪</h2>
+<ul>
+<li><a href="https://github.com/eyaltoledano/claude-task-master">Task Master</a> - 把产品文档拆成有依赖关系的任务，让智能体逐个完成。</li>
+<li><a href="https://github.com/gastownhall/beads">Beads</a> - 存放在仓库中的问题跟踪器，专为智能体创建、领取和关闭任务而设计。</li>
+<li><a href="https://github.com/MrLesk/Backlog.md">Backlog.md</a> - 放在 Git 中、由人和智能体共享的 Markdown 任务看板。</li>
+</ul>
+<h2 id="reusable-prompts-skills-and-subagents">可复用的提示词、技能和子智能体</h2>
+<ul>
+<li><a href="https://github.com/github/awesome-copilot">Awesome Copilot</a> - 面向 GitHub Copilot 的社区指令、提示词、智能体和技能。</li>
+<li><a href="https://github.com/PatrickJS/awesome-cursorrules">Awesome CursorRules</a> - Cursor 规则文件，按语言和框架分类。</li>
+<li><a href="https://github.com/wshobson/agents">Agents by wshobson</a> - 用 Markdown 编写一次即可为多个编程智能体生成的插件、子智能体和命令。</li>
+<li><a href="https://github.com/VoltAgent/awesome-claude-code-subagents">Awesome Claude Code Subagents</a> - 一百多个专业子智能体定义。</li>
+<li><a href="https://github.com/anthropics/claude-cookbooks">Claude Cookbooks</a> - 收录各种模式的笔记本，包括智能体工作流和工具调用。</li>
+</ul>
+<h2 id="review-and-approval">评审与批准</h2>
+<ul>
+<li><a href="https://github.com/humanlayer/humanlayer">HumanLayer</a> - 面向难题的编程智能体工作流，包含由人评审的调研、规划和实现步骤。</li>
+<li><a href="https://github.com/The-PR-Agent/pr-agent">PR-Agent</a> - 一个开源的代码评审工具，会在 pull request 上发表评论，作为人工评审之外的第二道把关。</li>
+<li><a href="https://github.com/anthropics/claude-code-security-review">Claude Code Security Review</a> - 一个检查每次变更安全问题的 GitHub Action。</li>
+</ul>
+<h2 id="running-agents-side-by-side">并行运行智能体</h2>
+<ul>
+<li><a href="https://github.com/smtg-ai/claude-squad">Claude Squad</a> - 同时运行多个终端智能体，各自位于独立的 Git worktree，并在一个终端中统一管理。</li>
+<li><a href="https://github.com/dagger/container-use">Container Use</a> - 每个智能体一个容器和一个分支，让多个智能体在同一项目中互不干扰。</li>
+<li><a href="https://github.com/stravu/crystal">Crystal</a> - 在 worktree 中并行运行智能体会话的桌面应用，便于比较不同方案（现名 Nimbalyst）。</li>
+<li><a href="https://github.com/ruvnet/ruflo">Ruflo</a> - 围绕 Claude Code 等智能体，协调共享记忆的智能体集群。</li>
+</ul>
+<h2 id="agents-in-ci">CI 中的智能体</h2>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code-action">Claude Code Action</a> - 在 GitHub Actions 中通过 issue 和 pull request 运行 Claude Code。</li>
+<li><a href="https://github.com/OpenHands/OpenHands">OpenHands</a> - 开放的编程智能体平台，可在本地、云端或 CI 中无界面运行。</li>
+<li><a href="https://github.com/SWE-agent/SWE-agent">SWE-agent</a> - 接收一个 GitHub issue 并尝试修复，可使用你选择的语言模型。</li>
+</ul>
+<h2 id="frameworks-with-a-person-in-the-loop">有人参与环节的框架</h2>
+<ul>
+<li><a href="https://github.com/langchain-ai/langgraph">LangGraph</a> - 以图的形式构建智能体，可以 <a href="https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/">暂停等待人工</a> 并从保存的状态继续运行。</li>
+<li><a href="https://github.com/openai/openai-agents-python">OpenAI Agents SDK</a> - 一个支持交接和防护机制的轻量多智能体工作流框架。</li>
+<li><a href="https://github.com/crewAIInc/crewAI">CrewAI</a> - 编排扮演不同角色的智能体，任务可以向人请求输入。</li>
+</ul>
+<h2 id="related-lists">相关列表</h2>
+<ul>
+<li><a href="https://github.com/hesreallyhim/awesome-claude-code">Awesome Claude Code</a> - Claude Code 的技能、钩子、命令和工具。</li>
+</ul>
+<h2 id="contributing">参与贡献</h2>
+<p>欢迎贡献。请先阅读 <a href="contributing.md">贡献指南</a> 。</p>
+
+<p id="empty" class="empty hidden">没有匹配结果</p>
+</main>
+</div>
+<footer><div class="bar"><span>MIT · <a href="https://github.com/thirstyeggplant/awesome-agent-workflows">thirstyeggplant/awesome-agent-workflows</a></span><span>🍆 <a href="https://github.com/thirstyeggplant/aubergine">Aubergine</a></span></div></footer>
+<script src="../app.js"></script>
+</body>
+</html>

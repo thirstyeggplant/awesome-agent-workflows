@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome Agent Workflows · 한국어</title>
+<meta name="description" content="AI 코딩 에이전트와 일하는 반복 가능한 방법: 계획과 명세, 작업 큐, 재사용 가능한 프롬프트와 스킬, 리뷰 체크포인트, 사람을 기다리는 단계.">
+<link rel="canonical" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ko/">
+<link rel="alternate" hreflang="en" href="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<link rel="alternate" hreflang="zh-CN" href="https://thirstyeggplant.github.io/awesome-agent-workflows/zh-CN/">
+<link rel="alternate" hreflang="es" href="https://thirstyeggplant.github.io/awesome-agent-workflows/es/">
+<link rel="alternate" hreflang="ja" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ja/">
+<link rel="alternate" hreflang="ko" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ko/">
+<link rel="alternate" hreflang="pt-BR" href="https://thirstyeggplant.github.io/awesome-agent-workflows/pt-BR/">
+<link rel="alternate" hreflang="fr" href="https://thirstyeggplant.github.io/awesome-agent-workflows/fr/">
+<link rel="alternate" hreflang="de" href="https://thirstyeggplant.github.io/awesome-agent-workflows/de/">
+<link rel="alternate" hreflang="hi" href="https://thirstyeggplant.github.io/awesome-agent-workflows/hi/">
+<link rel="alternate" hreflang="bn" href="https://thirstyeggplant.github.io/awesome-agent-workflows/bn/">
+<link rel="alternate" hreflang="id" href="https://thirstyeggplant.github.io/awesome-agent-workflows/id/">
+<link rel="alternate" hreflang="ar" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ar/">
+<link rel="alternate" hreflang="x-default" href="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<meta property="og:title" content="Awesome Agent Workflows">
+<meta property="og:description" content="AI 코딩 에이전트와 일하는 반복 가능한 방법: 계획과 명세, 작업 큐, 재사용 가능한 프롬프트와 스킬, 리뷰 체크포인트, 사람을 기다리는 단계.">
+<meta property="og:url" content="https://thirstyeggplant.github.io/awesome-agent-workflows/ko/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍆</text></svg>">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="top"><div class="bar">
+  <a class="brand" href="../"><span class="dot"></span>Awesome Agent Workflows</a>
+  <label class="search"><input id="q" type="search" placeholder="링크 필터…" aria-label="링크 필터…"></label>
+  <select id="lang" aria-label="언어"><option value="../">English</option>
+<option value="../zh-CN/">简体中文</option>
+<option value="../es/">Español</option>
+<option value="../ja/">日本語</option>
+<option value="../ko/" selected>한국어</option>
+<option value="../pt-BR/">Português (BR)</option>
+<option value="../fr/">Français</option>
+<option value="../de/">Deutsch</option>
+<option value="../hi/">हिन्दी</option>
+<option value="../bn/">বাংলা</option>
+<option value="../id/">Bahasa Indonesia</option>
+<option value="../ar/">العربية</option></select>
+  <a class="gh" href="https://github.com/thirstyeggplant/awesome-agent-workflows">GitHub에서 보기</a>
+</div></header>
+<section class="hero"><h1>Awesome Agent Workflows</h1><p>AI 코딩 에이전트와 일하는 반복 가능한 방법: 계획과 명세, 작업 큐, 재사용 가능한 프롬프트와 스킬, 리뷰 체크포인트, 사람을 기다리는 단계.</p><p class="note">영어판을 번역한 문서입니다. 도구와 사이트 이름은 원문 그대로 두었습니다.</p></section>
+<div class="layout">
+<nav class="toc" aria-label="목차"><h2>목차</h2>
+<a class="sub" href="#featured">추천</a>
+<a class="sub" href="#principles-and-guides">원칙과 가이드</a>
+<a class="sub" href="#instruction-files-and-standards">지시 파일과 표준</a>
+<a class="sub" href="#planning-and-spec-driven-development">계획과 명세 기반 개발</a>
+<a class="sub" href="#task-tracking-for-agents">에이전트용 작업 관리</a>
+<a class="sub" href="#reusable-prompts-skills-and-subagents">재사용 가능한 프롬프트, 스킬, 서브에이전트</a>
+<a class="sub" href="#review-and-approval">리뷰와 승인</a>
+<a class="sub" href="#running-agents-side-by-side">에이전트 나란히 실행하기</a>
+<a class="sub" href="#agents-in-ci">CI 속 에이전트</a>
+<a class="sub" href="#frameworks-with-a-person-in-the-loop">사람이 참여하는 프레임워크</a>
+<a class="sub" href="#related-lists">관련 목록</a>
+</nav>
+<main>
+<blockquote>
+<p>AI 코딩 에이전트와 일하는 반복 가능한 방법: 계획과 명세, 작업 큐, 재사용 가능한 프롬프트와 스킬, 리뷰 체크포인트, 그리고 사람을 기다리는 단계.</p>
+</blockquote>
+<p>이 목록은 에이전트 자체가 아니라 에이전트를 둘러싼 일에 관한 것입니다. 작업을 어떻게 적고, 나누고, 넘기고, 확인하고, 승인하는지. 따로 표시하지 않은 항목은 오픈 소스이거나 자유롭게 읽을 수 있습니다.</p>
+<h2 id="contents">목차</h2>
+<ul>
+<li><a href="#featured">추천</a></li>
+<li><a href="#principles-and-guides">원칙과 가이드</a></li>
+<li><a href="#instruction-files-and-standards">지시 파일과 표준</a></li>
+<li><a href="#planning-and-spec-driven-development">계획과 명세 기반 개발</a></li>
+<li><a href="#task-tracking-for-agents">에이전트용 작업 관리</a></li>
+<li><a href="#reusable-prompts-skills-and-subagents">재사용 가능한 프롬프트, 스킬, 서브에이전트</a></li>
+<li><a href="#review-and-approval">리뷰와 승인</a></li>
+<li><a href="#running-agents-side-by-side">에이전트 나란히 실행하기</a></li>
+<li><a href="#agents-in-ci">CI 속 에이전트</a></li>
+<li><a href="#frameworks-with-a-person-in-the-loop">사람이 참여하는 프레임워크</a></li>
+<li><a href="#related-lists">관련 목록</a></li>
+</ul>
+<h2 id="featured">추천</h2>
+<ul>
+<li><a href="https://github.com/thirstyeggplant/aubergine">Aubergine</a> - 브라우저 캔버스 위의 터미널. 소유자의 승인을 기다릴 수 있는 단계로 된 워크플로, 작업 큐, 사용 전에 검토하는 초안을 제공합니다. <em>(이 목록의 관리자가 만들었습니다.)</em></li>
+</ul>
+<h2 id="principles-and-guides">원칙과 가이드</h2>
+<ul>
+<li><a href="https://www.anthropic.com/engineering/building-effective-agents">효과적인 에이전트 만들기</a> - 프롬프트 체이닝부터 오케스트레이터와 워커까지, 워크플로와 에이전트를 위한 Anthropic의 패턴.</li>
+<li><a href="https://www.anthropic.com/engineering/claude-code-best-practices">Claude Code 모범 사례</a> - 탐색, 계획, 코딩, 커밋. 사람이 개입할 수 있는 체크포인트와 함께.</li>
+<li><a href="https://github.com/humanlayer/12-factor-agents">12-Factor Agents</a> - 프로덕션에 쓸 만큼 믿을 수 있는 에이전트를 위한 원칙. 사람에게 연락하는 것을 도구 호출로 다루는 방법도 포함합니다.</li>
+</ul>
+<h2 id="instruction-files-and-standards">지시 파일과 표준</h2>
+<ul>
+<li><a href="https://agents.md">AGENTS.md</a> - 저장소에 두는 평범한 Markdown 파일로, 어떤 코딩 에이전트에게든 빌드, 테스트, 규칙 준수 방법을 알려 줍니다.</li>
+<li><a href="https://modelcontextprotocol.io">Model Context Protocol</a> - 에이전트에게 도구와 컨텍스트를 제공하는 개방형 프로토콜. 관련 <a href="https://github.com/modelcontextprotocol/modelcontextprotocol">명세</a>.</li>
+<li><a href="https://github.com/anthropics/skills">Agent Skills</a> - 작업에 필요할 때 에이전트가 불러오는 지시문과 스크립트 폴더.</li>
+<li><a href="https://docs.claude.com/en/docs/claude-code/hooks">Claude Code hooks</a> - 에이전트 턴의 정해진 시점에 실행되는 명령. 모델의 기억에 의존하면 안 되는 검사를 위해.</li>
+</ul>
+<h2 id="planning-and-spec-driven-development">계획과 명세 기반 개발</h2>
+<ul>
+<li><a href="https://github.com/github/spec-kit">Spec Kit</a> - 에이전트가 코드를 쓰기 전에 명세, 계획, 작업을 작성하기 위한 GitHub의 툴킷.</li>
+<li><a href="https://github.com/Fission-AI/OpenSpec">OpenSpec</a> - 각 변경을 저장소의 파일로 제안하고 검토하고 보관하는 명세 기반 개발.</li>
+<li><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD Method</a> - 분석가와 아키텍트부터 개발자와 QA까지, 에이전트가 맡는 애자일 역할.</li>
+<li><a href="https://github.com/buildermethods/agent-os">Agent OS</a> - 코드베이스의 표준과 명세를 에이전트가 참고할 파일로 작성합니다.</li>
+<li><a href="https://github.com/obra/superpowers">Superpowers</a> - 브레인스토밍, 계획, 테스트 주도 개발, 리뷰 과정을 에이전트에게 안내하는 스킬 라이브러리.</li>
+</ul>
+<h2 id="task-tracking-for-agents">에이전트용 작업 관리</h2>
+<ul>
+<li><a href="https://github.com/eyaltoledano/claude-task-master">Task Master</a> - 제품 문서를 의존 관계가 있는 작업으로 나누고, 에이전트가 하나씩 처리합니다.</li>
+<li><a href="https://github.com/gastownhall/beads">Beads</a> - 저장소 안에 두는 이슈 트래커로, 에이전트가 작업을 등록하고 맡고 닫을 수 있게 만들어졌습니다.</li>
+<li><a href="https://github.com/MrLesk/Backlog.md">Backlog.md</a> - 사람과 에이전트가 함께 쓰는 Git 속 Markdown 작업 보드.</li>
+</ul>
+<h2 id="reusable-prompts-skills-and-subagents">재사용 가능한 프롬프트, 스킬, 서브에이전트</h2>
+<ul>
+<li><a href="https://github.com/github/awesome-copilot">Awesome Copilot</a> - GitHub Copilot을 위한 커뮤니티 지시문, 프롬프트, 에이전트, 스킬.</li>
+<li><a href="https://github.com/PatrickJS/awesome-cursorrules">Awesome CursorRules</a> - 언어와 프레임워크별로 정리한 Cursor 규칙 파일.</li>
+<li><a href="https://github.com/wshobson/agents">Agents by wshobson</a> - Markdown으로 한 번 작성해 여러 코딩 에이전트용으로 생성하는 플러그인, 서브에이전트, 명령.</li>
+<li><a href="https://github.com/VoltAgent/awesome-claude-code-subagents">Awesome Claude Code Subagents</a> - 100개가 넘는 전문 서브에이전트 정의.</li>
+<li><a href="https://github.com/anthropics/claude-cookbooks">Claude Cookbooks</a> - 에이전트 워크플로와 도구 사용을 포함한 패턴 노트북.</li>
+</ul>
+<h2 id="review-and-approval">리뷰와 승인</h2>
+<ul>
+<li><a href="https://github.com/humanlayer/humanlayer">HumanLayer</a> - 어려운 문제를 다루는 코딩 에이전트용 워크플로. 조사, 계획, 구현 단계를 사람이 검토합니다.</li>
+<li><a href="https://github.com/The-PR-Agent/pr-agent">PR-Agent</a> - 풀 리퀘스트에 코멘트를 남기는 오픈 소스 리뷰어로, 사람의 리뷰에 더하는 두 번째 검토입니다.</li>
+<li><a href="https://github.com/anthropics/claude-code-security-review">Claude Code Security Review</a> - 모든 변경 사항의 보안 문제를 검토하는 GitHub Action.</li>
+</ul>
+<h2 id="running-agents-side-by-side">에이전트 나란히 실행하기</h2>
+<ul>
+<li><a href="https://github.com/smtg-ai/claude-squad">Claude Squad</a> - 여러 터미널 에이전트를 동시에 각자의 Git worktree에서 실행하고 하나의 터미널에서 관리합니다.</li>
+<li><a href="https://github.com/dagger/container-use">Container Use</a> - 에이전트마다 컨테이너와 브랜치를 하나씩 두어, 여럿이 충돌 없이 한 프로젝트에서 작업합니다.</li>
+<li><a href="https://github.com/stravu/crystal">Crystal</a> - worktree에서 에이전트 세션을 병렬로 돌려 접근 방식을 비교하는 데스크톱 앱 (현재 Nimbalyst).</li>
+<li><a href="https://github.com/ruvnet/ruflo">Ruflo</a> - Claude Code 등을 중심으로 공유 메모리를 가진 에이전트 무리를 조율합니다.</li>
+</ul>
+<h2 id="agents-in-ci">CI 속 에이전트</h2>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code-action">Claude Code Action</a> - GitHub Actions에서 이슈와 풀 리퀘스트로 Claude Code를 실행합니다.</li>
+<li><a href="https://github.com/OpenHands/OpenHands">OpenHands</a> - 로컬, 클라우드, 또는 CI에서 헤드리스로 실행되는 코딩 에이전트용 개방형 플랫폼.</li>
+<li><a href="https://github.com/SWE-agent/SWE-agent">SWE-agent</a> - 원하는 언어 모델로 GitHub 이슈를 받아 해결을 시도합니다.</li>
+</ul>
+<h2 id="frameworks-with-a-person-in-the-loop">사람이 참여하는 프레임워크</h2>
+<ul>
+<li><a href="https://github.com/langchain-ai/langgraph">LangGraph</a> - 그래프로 구성한 에이전트로, <a href="https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/">사람을 위해 멈추고</a> 저장된 상태에서 다시 이어 갈 수 있습니다.</li>
+<li><a href="https://github.com/openai/openai-agents-python">OpenAI Agents SDK</a> - 인계와 가드레일을 갖춘 멀티 에이전트 워크플로용 작은 프레임워크.</li>
+<li><a href="https://github.com/crewAIInc/crewAI">CrewAI</a> - 역할을 맡은 에이전트를 조율하며, 작업이 사람에게 입력을 요청할 수 있습니다.</li>
+</ul>
+<h2 id="related-lists">관련 목록</h2>
+<ul>
+<li><a href="https://github.com/hesreallyhim/awesome-claude-code">Awesome Claude Code</a> - Claude Code용 스킬, 훅, 명령, 도구.</li>
+</ul>
+<h2 id="contributing">기여하기</h2>
+<p>기여를 환영합니다. 먼저 <a href="contributing.md">기여 가이드라인</a> 을 읽어 주세요.</p>
+
+<p id="empty" class="empty hidden">일치하는 항목이 없습니다</p>
+</main>
+</div>
+<footer><div class="bar"><span>MIT · <a href="https://github.com/thirstyeggplant/awesome-agent-workflows">thirstyeggplant/awesome-agent-workflows</a></span><span>🍆 <a href="https://github.com/thirstyeggplant/aubergine">Aubergine</a></span></div></footer>
+<script src="../app.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome Agent Workflows · English</title>
+<meta name="description" content="Repeatable ways of working with AI coding agents: plans and specs, task queues, reusable prompts and skills, review checkpoints, and steps that wait for a person.">
+<link rel="canonical" href="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<link rel="alternate" hreflang="en" href="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<link rel="alternate" hreflang="zh-CN" href="https://thirstyeggplant.github.io/awesome-agent-workflows/zh-CN/">
+<link rel="alternate" hreflang="es" href="https://thirstyeggplant.github.io/awesome-agent-workflows/es/">
+<link rel="alternate" hreflang="ja" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ja/">
+<link rel="alternate" hreflang="ko" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ko/">
+<link rel="alternate" hreflang="pt-BR" href="https://thirstyeggplant.github.io/awesome-agent-workflows/pt-BR/">
+<link rel="alternate" hreflang="fr" href="https://thirstyeggplant.github.io/awesome-agent-workflows/fr/">
+<link rel="alternate" hreflang="de" href="https://thirstyeggplant.github.io/awesome-agent-workflows/de/">
+<link rel="alternate" hreflang="hi" href="https://thirstyeggplant.github.io/awesome-agent-workflows/hi/">
+<link rel="alternate" hreflang="bn" href="https://thirstyeggplant.github.io/awesome-agent-workflows/bn/">
+<link rel="alternate" hreflang="id" href="https://thirstyeggplant.github.io/awesome-agent-workflows/id/">
+<link rel="alternate" hreflang="ar" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ar/">
+<link rel="alternate" hreflang="x-default" href="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<meta property="og:title" content="Awesome Agent Workflows">
+<meta property="og:description" content="Repeatable ways of working with AI coding agents: plans and specs, task queues, reusable prompts and skills, review checkpoints, and steps that wait for a person.">
+<meta property="og:url" content="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍆</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="bar">
+  <a class="brand" href="./"><span class="dot"></span>Awesome Agent Workflows</a>
+  <label class="search"><input id="q" type="search" placeholder="Filter links…" aria-label="Filter links…"></label>
+  <select id="lang" aria-label="Language"><option value="./" selected>English</option>
+<option value="zh-CN/">简体中文</option>
+<option value="es/">Español</option>
+<option value="ja/">日本語</option>
+<option value="ko/">한국어</option>
+<option value="pt-BR/">Português (BR)</option>
+<option value="fr/">Français</option>
+<option value="de/">Deutsch</option>
+<option value="hi/">हिन्दी</option>
+<option value="bn/">বাংলা</option>
+<option value="id/">Bahasa Indonesia</option>
+<option value="ar/">العربية</option></select>
+  <a class="gh" href="https://github.com/thirstyeggplant/awesome-agent-workflows">View on GitHub</a>
+</div></header>
+<section class="hero"><h1>Awesome Agent Workflows</h1><p>Repeatable ways of working with AI coding agents: plans and specs, task queues, reusable prompts and skills, review checkpoints, and steps that wait for a person.</p></section>
+<div class="layout">
+<nav class="toc" aria-label="Contents"><h2>Contents</h2>
+<a class="sub" href="#featured">Featured</a>
+<a class="sub" href="#principles-and-guides">Principles and guides</a>
+<a class="sub" href="#instruction-files-and-standards">Instruction files and standards</a>
+<a class="sub" href="#planning-and-spec-driven-development">Planning and spec-driven development</a>
+<a class="sub" href="#task-tracking-for-agents">Task tracking for agents</a>
+<a class="sub" href="#reusable-prompts-skills-and-subagents">Reusable prompts, skills and subagents</a>
+<a class="sub" href="#review-and-approval">Review and approval</a>
+<a class="sub" href="#running-agents-side-by-side">Running agents side by side</a>
+<a class="sub" href="#agents-in-ci">Agents in CI</a>
+<a class="sub" href="#frameworks-with-a-person-in-the-loop">Frameworks with a person in the loop</a>
+<a class="sub" href="#related-lists">Related lists</a>
+</nav>
+<main>
+<blockquote>
+<p>Repeatable ways of working with AI coding agents: plans and specs, task queues, reusable prompts and skills, review checkpoints, and steps that wait for a person.</p>
+</blockquote>
+<p>This list is about the work around an agent rather than the agent itself: how a task is written down, broken up, handed over, checked and approved. Entries are open source or freely readable unless marked otherwise.</p>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#featured">Featured</a></li>
+<li><a href="#principles-and-guides">Principles and guides</a></li>
+<li><a href="#instruction-files-and-standards">Instruction files and standards</a></li>
+<li><a href="#planning-and-spec-driven-development">Planning and spec-driven development</a></li>
+<li><a href="#task-tracking-for-agents">Task tracking for agents</a></li>
+<li><a href="#reusable-prompts-skills-and-subagents">Reusable prompts, skills and subagents</a></li>
+<li><a href="#review-and-approval">Review and approval</a></li>
+<li><a href="#running-agents-side-by-side">Running agents side by side</a></li>
+<li><a href="#agents-in-ci">Agents in CI</a></li>
+<li><a href="#frameworks-with-a-person-in-the-loop">Frameworks with a person in the loop</a></li>
+<li><a href="#related-lists">Related lists</a></li>
+</ul>
+<h2 id="featured">Featured</h2>
+<ul>
+<li><a href="https://github.com/thirstyeggplant/aubergine">Aubergine</a> - Terminals on a canvas in the browser, with workflows whose steps can wait for the owner's approval, a task queue and drafts reviewed before use. <em>(Maintained by the owners of this list.)</em></li>
+</ul>
+<h2 id="principles-and-guides">Principles and guides</h2>
+<ul>
+<li><a href="https://www.anthropic.com/engineering/building-effective-agents">Building effective agents</a> - Anthropic's patterns for workflows and agents, from prompt chaining to orchestrator and workers.</li>
+<li><a href="https://www.anthropic.com/engineering/claude-code-best-practices">Claude Code best practices</a> - Explore, plan, code and commit, with checkpoints a person can step into.</li>
+<li><a href="https://github.com/humanlayer/12-factor-agents">12-Factor Agents</a> - Principles for agents reliable enough for production, including contacting people as a tool call.</li>
+</ul>
+<h2 id="instruction-files-and-standards">Instruction files and standards</h2>
+<ul>
+<li><a href="https://agents.md">AGENTS.md</a> - A plain Markdown file in a repository that tells any coding agent how to build, test and follow its conventions.</li>
+<li><a href="https://modelcontextprotocol.io">Model Context Protocol</a> - The open protocol for giving agents tools and context, with its <a href="https://github.com/modelcontextprotocol/modelcontextprotocol">specification</a>.</li>
+<li><a href="https://github.com/anthropics/skills">Agent Skills</a> - Folders of instructions and scripts that an agent loads when a task calls for them.</li>
+<li><a href="https://docs.claude.com/en/docs/claude-code/hooks">Claude Code hooks</a> - Commands that run at fixed points of an agent's turn, for checks that should not depend on the model remembering.</li>
+</ul>
+<h2 id="planning-and-spec-driven-development">Planning and spec-driven development</h2>
+<ul>
+<li><a href="https://github.com/github/spec-kit">Spec Kit</a> - GitHub's toolkit for writing a specification, a plan and tasks before an agent writes code.</li>
+<li><a href="https://github.com/Fission-AI/OpenSpec">OpenSpec</a> - Spec-driven development where each change is proposed, reviewed and archived as files in the repository.</li>
+<li><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD Method</a> - Agile roles played by agents, from analyst and architect to developer and QA.</li>
+<li><a href="https://github.com/buildermethods/agent-os">Agent OS</a> - Writes a codebase's standards and specs into files agents work from.</li>
+<li><a href="https://github.com/obra/superpowers">Superpowers</a> - A skills library that walks an agent through brainstorming, planning, test-driven development and review.</li>
+</ul>
+<h2 id="task-tracking-for-agents">Task tracking for agents</h2>
+<ul>
+<li><a href="https://github.com/eyaltoledano/claude-task-master">Task Master</a> - Turns a product document into dependent tasks that an agent works through one at a time.</li>
+<li><a href="https://github.com/gastownhall/beads">Beads</a> - An issue tracker kept in the repository, made for agents to file, pick up and close work.</li>
+<li><a href="https://github.com/MrLesk/Backlog.md">Backlog.md</a> - A Markdown task board in Git that people and agents share.</li>
+</ul>
+<h2 id="reusable-prompts-skills-and-subagents">Reusable prompts, skills and subagents</h2>
+<ul>
+<li><a href="https://github.com/github/awesome-copilot">Awesome Copilot</a> - Community instructions, prompts, agents and skills for GitHub Copilot.</li>
+<li><a href="https://github.com/PatrickJS/awesome-cursorrules">Awesome CursorRules</a> - Rule files for Cursor, sorted by language and framework.</li>
+<li><a href="https://github.com/wshobson/agents">Agents by wshobson</a> - Plugins, subagents and commands written once in Markdown and generated for several coding agents.</li>
+<li><a href="https://github.com/VoltAgent/awesome-claude-code-subagents">Awesome Claude Code Subagents</a> - More than a hundred specialised subagent definitions.</li>
+<li><a href="https://github.com/anthropics/claude-cookbooks">Claude Cookbooks</a> - Notebooks of patterns, including agent workflows and tool use.</li>
+</ul>
+<h2 id="review-and-approval">Review and approval</h2>
+<ul>
+<li><a href="https://github.com/humanlayer/humanlayer">HumanLayer</a> - Workflows for coding agents on hard problems, with research, plan and implement steps a person reviews.</li>
+<li><a href="https://github.com/The-PR-Agent/pr-agent">PR-Agent</a> - An open source reviewer that comments on pull requests, a second pass beside a person's review.</li>
+<li><a href="https://github.com/anthropics/claude-code-security-review">Claude Code Security Review</a> - A GitHub Action that reviews each change for security problems.</li>
+</ul>
+<h2 id="running-agents-side-by-side">Running agents side by side</h2>
+<ul>
+<li><a href="https://github.com/smtg-ai/claude-squad">Claude Squad</a> - Several terminal agents at once, each in its own Git worktree, managed from one terminal.</li>
+<li><a href="https://github.com/dagger/container-use">Container Use</a> - A container and a branch per agent, so several can work on one project without colliding.</li>
+<li><a href="https://github.com/stravu/crystal">Crystal</a> - A desktop app for parallel agent sessions in worktrees, to compare approaches (now Nimbalyst).</li>
+<li><a href="https://github.com/ruvnet/ruflo">Ruflo</a> - Coordinates swarms of agents with shared memory around Claude Code and other agents.</li>
+</ul>
+<h2 id="agents-in-ci">Agents in CI</h2>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code-action">Claude Code Action</a> - Runs Claude Code from issues and pull requests in GitHub Actions.</li>
+<li><a href="https://github.com/OpenHands/OpenHands">OpenHands</a> - An open platform for coding agents that runs locally, in the cloud or headless in CI.</li>
+<li><a href="https://github.com/SWE-agent/SWE-agent">SWE-agent</a> - Takes a GitHub issue and tries to fix it, with the language model of your choice.</li>
+</ul>
+<h2 id="frameworks-with-a-person-in-the-loop">Frameworks with a person in the loop</h2>
+<ul>
+<li><a href="https://github.com/langchain-ai/langgraph">LangGraph</a> - Agents as graphs that can <a href="https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/">pause for a person</a> and resume from saved state.</li>
+<li><a href="https://github.com/openai/openai-agents-python">OpenAI Agents SDK</a> - A small framework for multi-agent workflows with handoffs and guardrails.</li>
+<li><a href="https://github.com/crewAIInc/crewAI">CrewAI</a> - Orchestrates agents that play roles, with tasks that can ask a person for input.</li>
+</ul>
+<h2 id="related-lists">Related lists</h2>
+<ul>
+<li><a href="https://github.com/hesreallyhim/awesome-claude-code">Awesome Claude Code</a> - Skills, hooks, commands and tools for Claude Code.</li>
+</ul>
+<h2 id="contributing">Contributing</h2>
+<p>Contributions are welcome. Read the <a href="contributing.md">contribution guidelines</a> first.</p>
+
+<p id="empty" class="empty hidden">No matches</p>
+</main>
+</div>
+<footer><div class="bar"><span>MIT · <a href="https://github.com/thirstyeggplant/awesome-agent-workflows">thirstyeggplant/awesome-agent-workflows</a></span><span>🍆 <a href="https://github.com/thirstyeggplant/aubergine">Aubergine</a></span></div></footer>
+<script src="app.js"></script>
+</body>
+</html>

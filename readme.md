@@ -4,8 +4,13 @@
 
 This list is about the work around an agent rather than the agent itself: how a task is written down, broken up, handed over, checked and approved. Entries are open source or freely readable unless marked otherwise.
 
+<!-- lang-bar -->
+🌐 **English** · [简体中文](readme.zh-CN.md) · [Español](readme.es.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md) · 🔗 [Website](https://thirstyeggplant.github.io/awesome-agent-workflows/)
+<!-- /lang-bar -->
+
 ## Contents
 
+- [Featured](#featured)
 - [Principles and guides](#principles-and-guides)
 - [Instruction files and standards](#instruction-files-and-standards)
 - [Planning and spec-driven development](#planning-and-spec-driven-development)
@@ -16,6 +21,10 @@ This list is about the work around an agent rather than the agent itself: how a 
 - [Agents in CI](#agents-in-ci)
 - [Frameworks with a person in the loop](#frameworks-with-a-person-in-the-loop)
 - [Related lists](#related-lists)
+
+## Featured
+
+- [Aubergine](https://github.com/thirstyeggplant/aubergine) - Terminals on a canvas in the browser, with workflows whose steps can wait for the owner's approval, a task queue and drafts reviewed before use. *(Maintained by the owners of this list.)*
 
 ## Principles and guides
 
@@ -60,7 +69,6 @@ This list is about the work around an agent rather than the agent itself: how a 
 
 ## Running agents side by side
 
-- [Aubergine](https://github.com/thirstyeggplant/aubergine) - Terminals on a canvas in the browser, with workflows whose steps can wait for the owner's approval, a task queue and drafts reviewed before use. *(Maintained by the owners of this list.)*
 - [Claude Squad](https://github.com/smtg-ai/claude-squad) - Several terminal agents at once, each in its own Git worktree, managed from one terminal.
 - [Container Use](https://github.com/dagger/container-use) - A container and a branch per agent, so several can work on one project without colliding.
 - [Crystal](https://github.com/stravu/crystal) - A desktop app for parallel agent sessions in worktrees, to compare approaches (now Nimbalyst).

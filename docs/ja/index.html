@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome Agent Workflows · 日本語</title>
+<meta name="description" content="AI コーディングエージェントと働くための再現可能な方法：計画と仕様、タスクキュー、再利用できるプロンプトとスキル、レビューの関門、人を待つステップ。">
+<link rel="canonical" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ja/">
+<link rel="alternate" hreflang="en" href="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<link rel="alternate" hreflang="zh-CN" href="https://thirstyeggplant.github.io/awesome-agent-workflows/zh-CN/">
+<link rel="alternate" hreflang="es" href="https://thirstyeggplant.github.io/awesome-agent-workflows/es/">
+<link rel="alternate" hreflang="ja" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ja/">
+<link rel="alternate" hreflang="ko" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ko/">
+<link rel="alternate" hreflang="pt-BR" href="https://thirstyeggplant.github.io/awesome-agent-workflows/pt-BR/">
+<link rel="alternate" hreflang="fr" href="https://thirstyeggplant.github.io/awesome-agent-workflows/fr/">
+<link rel="alternate" hreflang="de" href="https://thirstyeggplant.github.io/awesome-agent-workflows/de/">
+<link rel="alternate" hreflang="hi" href="https://thirstyeggplant.github.io/awesome-agent-workflows/hi/">
+<link rel="alternate" hreflang="bn" href="https://thirstyeggplant.github.io/awesome-agent-workflows/bn/">
+<link rel="alternate" hreflang="id" href="https://thirstyeggplant.github.io/awesome-agent-workflows/id/">
+<link rel="alternate" hreflang="ar" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ar/">
+<link rel="alternate" hreflang="x-default" href="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<meta property="og:title" content="Awesome Agent Workflows">
+<meta property="og:description" content="AI コーディングエージェントと働くための再現可能な方法：計画と仕様、タスクキュー、再利用できるプロンプトとスキル、レビューの関門、人を待つステップ。">
+<meta property="og:url" content="https://thirstyeggplant.github.io/awesome-agent-workflows/ja/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍆</text></svg>">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="top"><div class="bar">
+  <a class="brand" href="../"><span class="dot"></span>Awesome Agent Workflows</a>
+  <label class="search"><input id="q" type="search" placeholder="リンクを絞り込む…" aria-label="リンクを絞り込む…"></label>
+  <select id="lang" aria-label="言語"><option value="../">English</option>
+<option value="../zh-CN/">简体中文</option>
+<option value="../es/">Español</option>
+<option value="../ja/" selected>日本語</option>
+<option value="../ko/">한국어</option>
+<option value="../pt-BR/">Português (BR)</option>
+<option value="../fr/">Français</option>
+<option value="../de/">Deutsch</option>
+<option value="../hi/">हिन्दी</option>
+<option value="../bn/">বাংলা</option>
+<option value="../id/">Bahasa Indonesia</option>
+<option value="../ar/">العربية</option></select>
+  <a class="gh" href="https://github.com/thirstyeggplant/awesome-agent-workflows">GitHub で見る</a>
+</div></header>
+<section class="hero"><h1>Awesome Agent Workflows</h1><p>AI コーディングエージェントと働くための再現可能な方法：計画と仕様、タスクキュー、再利用できるプロンプトとスキル、レビューの関門、人を待つステップ。</p><p class="note">英語版からの翻訳です。ツール名やサイト名は原文のままにしています。</p></section>
+<div class="layout">
+<nav class="toc" aria-label="目次"><h2>目次</h2>
+<a class="sub" href="#featured">注目</a>
+<a class="sub" href="#principles-and-guides">原則とガイド</a>
+<a class="sub" href="#instruction-files-and-standards">指示ファイルと標準</a>
+<a class="sub" href="#planning-and-spec-driven-development">計画と仕様駆動開発</a>
+<a class="sub" href="#task-tracking-for-agents">エージェントのためのタスク管理</a>
+<a class="sub" href="#reusable-prompts-skills-and-subagents">再利用できるプロンプト、スキル、サブエージェント</a>
+<a class="sub" href="#review-and-approval">レビューと承認</a>
+<a class="sub" href="#running-agents-side-by-side">エージェントを並べて動かす</a>
+<a class="sub" href="#agents-in-ci">CI のエージェント</a>
+<a class="sub" href="#frameworks-with-a-person-in-the-loop">人が介在するフレームワーク</a>
+<a class="sub" href="#related-lists">関連リスト</a>
+</nav>
+<main>
+<blockquote>
+<p>AI コーディングエージェントと働くための再現可能な方法：計画と仕様、タスクキュー、再利用できるプロンプトとスキル、レビューの関門、そして人を待つステップ。</p>
+</blockquote>
+<p>このリストが扱うのはエージェントそのものではなく、その周りの仕事です。タスクをどう書き、分割し、引き渡し、確認し、承認するか。特に記載がない限り、項目はオープンソースか自由に読めるものです。</p>
+<h2 id="contents">目次</h2>
+<ul>
+<li><a href="#featured">注目</a></li>
+<li><a href="#principles-and-guides">原則とガイド</a></li>
+<li><a href="#instruction-files-and-standards">指示ファイルと標準</a></li>
+<li><a href="#planning-and-spec-driven-development">計画と仕様駆動開発</a></li>
+<li><a href="#task-tracking-for-agents">エージェントのためのタスク管理</a></li>
+<li><a href="#reusable-prompts-skills-and-subagents">再利用できるプロンプト、スキル、サブエージェント</a></li>
+<li><a href="#review-and-approval">レビューと承認</a></li>
+<li><a href="#running-agents-side-by-side">エージェントを並べて動かす</a></li>
+<li><a href="#agents-in-ci">CI のエージェント</a></li>
+<li><a href="#frameworks-with-a-person-in-the-loop">人が介在するフレームワーク</a></li>
+<li><a href="#related-lists">関連リスト</a></li>
+</ul>
+<h2 id="featured">注目</h2>
+<ul>
+<li><a href="https://github.com/thirstyeggplant/aubergine">Aubergine</a> - ブラウザのキャンバス上のターミナル。オーナーの承認を待てるステップを持つワークフロー、タスクキュー、使う前にレビューする下書きを備えています。<em>（このリストの管理者が開発しています。）</em></li>
+</ul>
+<h2 id="principles-and-guides">原則とガイド</h2>
+<ul>
+<li><a href="https://www.anthropic.com/engineering/building-effective-agents">効果的なエージェントの作り方</a> - プロンプトチェーンからオーケストレーターとワーカーまで、Anthropic によるワークフローとエージェントのパターン。</li>
+<li><a href="https://www.anthropic.com/engineering/claude-code-best-practices">Claude Code のベストプラクティス</a> - 調べる、計画する、書く、コミットする。人が介入できるチェックポイント付き。</li>
+<li><a href="https://github.com/humanlayer/12-factor-agents">12-Factor Agents</a> - 本番運用に耐えるエージェントのための原則。人への連絡をツール呼び出しとして扱うことも含みます。</li>
+</ul>
+<h2 id="instruction-files-and-standards">指示ファイルと標準</h2>
+<ul>
+<li><a href="https://agents.md">AGENTS.md</a> - リポジトリに置くただの Markdown ファイルで、どのコーディングエージェントにもビルド、テスト、規約の守り方を伝えます。</li>
+<li><a href="https://modelcontextprotocol.io">Model Context Protocol</a> - エージェントにツールとコンテキストを与えるためのオープンプロトコル。こちらは <a href="https://github.com/modelcontextprotocol/modelcontextprotocol">仕様</a>.</li>
+<li><a href="https://github.com/anthropics/skills">Agent Skills</a> - タスクが必要とするときにエージェントが読み込む、指示とスクリプトのフォルダ。</li>
+<li><a href="https://docs.claude.com/en/docs/claude-code/hooks">Claude Code hooks</a> - エージェントのターンの決まった時点で実行されるコマンド。モデルの記憶に頼るべきでないチェックのために。</li>
+</ul>
+<h2 id="planning-and-spec-driven-development">計画と仕様駆動開発</h2>
+<ul>
+<li><a href="https://github.com/github/spec-kit">Spec Kit</a> - エージェントがコードを書く前に、仕様、計画、タスクを書くための GitHub のツールキット。</li>
+<li><a href="https://github.com/Fission-AI/OpenSpec">OpenSpec</a> - 各変更をリポジトリ内のファイルとして提案・レビュー・保管する仕様駆動開発。</li>
+<li><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD Method</a> - アナリストやアーキテクトから開発者、QA まで、アジャイルの役割をエージェントが担います。</li>
+<li><a href="https://github.com/buildermethods/agent-os">Agent OS</a> - コードベースの標準と仕様を、エージェントが参照するファイルに書き出します。</li>
+<li><a href="https://github.com/obra/superpowers">Superpowers</a> - ブレインストーミング、計画、テスト駆動開発、レビューへとエージェントを導くスキルライブラリ。</li>
+</ul>
+<h2 id="task-tracking-for-agents">エージェントのためのタスク管理</h2>
+<ul>
+<li><a href="https://github.com/eyaltoledano/claude-task-master">Task Master</a> - プロダクト文書を依存関係のあるタスクに分解し、エージェントが 1 つずつ進めます。</li>
+<li><a href="https://github.com/gastownhall/beads">Beads</a> - リポジトリ内に置く課題管理ツールで、エージェントが作業を起票・着手・完了できるように作られています。</li>
+<li><a href="https://github.com/MrLesk/Backlog.md">Backlog.md</a> - 人とエージェントが共有する、Git 上の Markdown タスクボード。</li>
+</ul>
+<h2 id="reusable-prompts-skills-and-subagents">再利用できるプロンプト、スキル、サブエージェント</h2>
+<ul>
+<li><a href="https://github.com/github/awesome-copilot">Awesome Copilot</a> - GitHub Copilot 向けのコミュニティ製の指示、プロンプト、エージェント、スキル。</li>
+<li><a href="https://github.com/PatrickJS/awesome-cursorrules">Awesome CursorRules</a> - 言語とフレームワーク別に整理した Cursor のルールファイル。</li>
+<li><a href="https://github.com/wshobson/agents">Agents by wshobson</a> - Markdown で一度書くだけで、複数のコーディングエージェント向けに生成されるプラグイン、サブエージェント、コマンド。</li>
+<li><a href="https://github.com/VoltAgent/awesome-claude-code-subagents">Awesome Claude Code Subagents</a> - 100 を超える専門サブエージェントの定義。</li>
+<li><a href="https://github.com/anthropics/claude-cookbooks">Claude Cookbooks</a> - エージェントのワークフローやツール利用などのパターンを集めたノートブック。</li>
+</ul>
+<h2 id="review-and-approval">レビューと承認</h2>
+<ul>
+<li><a href="https://github.com/humanlayer/humanlayer">HumanLayer</a> - 難しい問題に取り組むコーディングエージェントのためのワークフロー。調査、計画、実装の各ステップを人がレビューします。</li>
+<li><a href="https://github.com/The-PR-Agent/pr-agent">PR-Agent</a> - プルリクエストにコメントするオープンソースのレビュアー。人のレビューに加える二重チェックとして。</li>
+<li><a href="https://github.com/anthropics/claude-code-security-review">Claude Code Security Review</a> - 変更ごとにセキュリティ上の問題をレビューする GitHub Action。</li>
+</ul>
+<h2 id="running-agents-side-by-side">エージェントを並べて動かす</h2>
+<ul>
+<li><a href="https://github.com/smtg-ai/claude-squad">Claude Squad</a> - 複数のターミナルエージェントを同時に、それぞれ専用の Git worktree で動かし、1 つのターミナルから管理します。</li>
+<li><a href="https://github.com/dagger/container-use">Container Use</a> - エージェントごとにコンテナとブランチを用意し、複数が衝突せずに 1 つのプロジェクトで作業できます。</li>
+<li><a href="https://github.com/stravu/crystal">Crystal</a> - worktree で並列にエージェントのセッションを走らせ、やり方を比べるデスクトップアプリ（現 Nimbalyst）。</li>
+<li><a href="https://github.com/ruvnet/ruflo">Ruflo</a> - Claude Code などを中心に、共有メモリを持つエージェント群を協調させます。</li>
+</ul>
+<h2 id="agents-in-ci">CI のエージェント</h2>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code-action">Claude Code Action</a> - GitHub Actions で issue やプルリクエストから Claude Code を実行します。</li>
+<li><a href="https://github.com/OpenHands/OpenHands">OpenHands</a> - ローカル、クラウド、または CI でヘッドレスに動く、コーディングエージェントのためのオープンなプラットフォーム。</li>
+<li><a href="https://github.com/SWE-agent/SWE-agent">SWE-agent</a> - 好きな言語モデルを使って、GitHub の issue を受け取り修正を試みます。</li>
+</ul>
+<h2 id="frameworks-with-a-person-in-the-loop">人が介在するフレームワーク</h2>
+<ul>
+<li><a href="https://github.com/langchain-ai/langgraph">LangGraph</a> - グラフとして構成したエージェントで、 <a href="https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/">人のために一時停止</a> し、保存した状態から再開できます。</li>
+<li><a href="https://github.com/openai/openai-agents-python">OpenAI Agents SDK</a> - 引き継ぎとガードレールを備えた、マルチエージェントワークフローのための小さなフレームワーク。</li>
+<li><a href="https://github.com/crewAIInc/crewAI">CrewAI</a> - 役割を持つエージェントを編成し、タスクから人に入力を求めることもできます。</li>
+</ul>
+<h2 id="related-lists">関連リスト</h2>
+<ul>
+<li><a href="https://github.com/hesreallyhim/awesome-claude-code">Awesome Claude Code</a> - Claude Code のためのスキル、フック、コマンド、ツール。</li>
+</ul>
+<h2 id="contributing">コントリビュート</h2>
+<p>コントリビュート歓迎です。まず <a href="contributing.md">コントリビューションガイドライン</a> をお読みください。</p>
+
+<p id="empty" class="empty hidden">一致する項目はありません</p>
+</main>
+</div>
+<footer><div class="bar"><span>MIT · <a href="https://github.com/thirstyeggplant/awesome-agent-workflows">thirstyeggplant/awesome-agent-workflows</a></span><span>🍆 <a href="https://github.com/thirstyeggplant/aubergine">Aubergine</a></span></div></footer>
+<script src="../app.js"></script>
+</body>
+</html>

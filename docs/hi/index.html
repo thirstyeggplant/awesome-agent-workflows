@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="hi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome Agent Workflows · हिन्दी</title>
+<meta name="description" content="AI कोडिंग एजेंटों के साथ काम करने के दोहराए जा सकने वाले तरीके: योजना और स्पेक, टास्क कतारें, दोबारा इस्तेमाल होने वाले प्रॉम्प्ट और स्किल, समीक्षा पड़ाव और ऐसे चरण जो किसी व्यक्ति का इंतज़ार करते हैं।">
+<link rel="canonical" href="https://thirstyeggplant.github.io/awesome-agent-workflows/hi/">
+<link rel="alternate" hreflang="en" href="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<link rel="alternate" hreflang="zh-CN" href="https://thirstyeggplant.github.io/awesome-agent-workflows/zh-CN/">
+<link rel="alternate" hreflang="es" href="https://thirstyeggplant.github.io/awesome-agent-workflows/es/">
+<link rel="alternate" hreflang="ja" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ja/">
+<link rel="alternate" hreflang="ko" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ko/">
+<link rel="alternate" hreflang="pt-BR" href="https://thirstyeggplant.github.io/awesome-agent-workflows/pt-BR/">
+<link rel="alternate" hreflang="fr" href="https://thirstyeggplant.github.io/awesome-agent-workflows/fr/">
+<link rel="alternate" hreflang="de" href="https://thirstyeggplant.github.io/awesome-agent-workflows/de/">
+<link rel="alternate" hreflang="hi" href="https://thirstyeggplant.github.io/awesome-agent-workflows/hi/">
+<link rel="alternate" hreflang="bn" href="https://thirstyeggplant.github.io/awesome-agent-workflows/bn/">
+<link rel="alternate" hreflang="id" href="https://thirstyeggplant.github.io/awesome-agent-workflows/id/">
+<link rel="alternate" hreflang="ar" href="https://thirstyeggplant.github.io/awesome-agent-workflows/ar/">
+<link rel="alternate" hreflang="x-default" href="https://thirstyeggplant.github.io/awesome-agent-workflows/">
+<meta property="og:title" content="Awesome Agent Workflows">
+<meta property="og:description" content="AI कोडिंग एजेंटों के साथ काम करने के दोहराए जा सकने वाले तरीके: योजना और स्पेक, टास्क कतारें, दोबारा इस्तेमाल होने वाले प्रॉम्प्ट और स्किल, समीक्षा पड़ाव और ऐसे चरण जो किसी व्यक्ति का इंतज़ार करते हैं।">
+<meta property="og:url" content="https://thirstyeggplant.github.io/awesome-agent-workflows/hi/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍆</text></svg>">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="top"><div class="bar">
+  <a class="brand" href="../"><span class="dot"></span>Awesome Agent Workflows</a>
+  <label class="search"><input id="q" type="search" placeholder="लिंक फ़िल्टर करें…" aria-label="लिंक फ़िल्टर करें…"></label>
+  <select id="lang" aria-label="भाषा"><option value="../">English</option>
+<option value="../zh-CN/">简体中文</option>
+<option value="../es/">Español</option>
+<option value="../ja/">日本語</option>
+<option value="../ko/">한국어</option>
+<option value="../pt-BR/">Português (BR)</option>
+<option value="../fr/">Français</option>
+<option value="../de/">Deutsch</option>
+<option value="../hi/" selected>हिन्दी</option>
+<option value="../bn/">বাংলা</option>
+<option value="../id/">Bahasa Indonesia</option>
+<option value="../ar/">العربية</option></select>
+  <a class="gh" href="https://github.com/thirstyeggplant/awesome-agent-workflows">GitHub पर देखें</a>
+</div></header>
+<section class="hero"><h1>Awesome Agent Workflows</h1><p>AI कोडिंग एजेंटों के साथ काम करने के दोहराए जा सकने वाले तरीके: योजना और स्पेक, टास्क कतारें, दोबारा इस्तेमाल होने वाले प्रॉम्प्ट और स्किल, समीक्षा पड़ाव और ऐसे चरण जो किसी व्यक्ति का इंतज़ार करते हैं।</p><p class="note">यह अंग्रेज़ी संस्करण का अनुवाद है। टूल और वेबसाइटों के नाम मूल रूप में रखे गए हैं।</p></section>
+<div class="layout">
+<nav class="toc" aria-label="विषय-सूची"><h2>विषय-सूची</h2>
+<a class="sub" href="#featured">विशेष</a>
+<a class="sub" href="#principles-and-guides">सिद्धांत और गाइड</a>
+<a class="sub" href="#instruction-files-and-standards">निर्देश फ़ाइलें और मानक</a>
+<a class="sub" href="#planning-and-spec-driven-development">योजना और स्पेक-आधारित डेवलपमेंट</a>
+<a class="sub" href="#task-tracking-for-agents">एजेंटों के लिए टास्क ट्रैकिंग</a>
+<a class="sub" href="#reusable-prompts-skills-and-subagents">दोबारा उपयोग होने वाले प्रॉम्प्ट, स्किल और सबएजेंट</a>
+<a class="sub" href="#review-and-approval">समीक्षा और मंज़ूरी</a>
+<a class="sub" href="#running-agents-side-by-side">एजेंटों को साथ-साथ चलाना</a>
+<a class="sub" href="#agents-in-ci">CI में एजेंट</a>
+<a class="sub" href="#frameworks-with-a-person-in-the-loop">जिन फ़्रेमवर्क में इंसान शामिल रहता है</a>
+<a class="sub" href="#related-lists">संबंधित सूचियाँ</a>
+</nav>
+<main>
+<blockquote>
+<p>AI कोडिंग एजेंटों के साथ काम करने के दोहराए जा सकने वाले तरीके: योजना और स्पेक, टास्क कतारें, दोबारा इस्तेमाल होने वाले प्रॉम्प्ट और स्किल, समीक्षा पड़ाव और ऐसे चरण जो किसी व्यक्ति का इंतज़ार करते हैं।</p>
+</blockquote>
+<p>यह सूची एजेंट के बारे में कम और उसके आसपास के काम के बारे में ज़्यादा है: कोई काम कैसे लिखा जाता है, बाँटा जाता है, सौंपा जाता है, जाँचा जाता है और मंज़ूर होता है। जब तक अलग से न लिखा हो, प्रविष्टियाँ ओपन सोर्स हैं या मुफ़्त में पढ़ी जा सकती हैं।</p>
+<h2 id="contents">विषय-सूची</h2>
+<ul>
+<li><a href="#featured">विशेष</a></li>
+<li><a href="#principles-and-guides">सिद्धांत और गाइड</a></li>
+<li><a href="#instruction-files-and-standards">निर्देश फ़ाइलें और मानक</a></li>
+<li><a href="#planning-and-spec-driven-development">योजना और स्पेक-आधारित डेवलपमेंट</a></li>
+<li><a href="#task-tracking-for-agents">एजेंटों के लिए टास्क ट्रैकिंग</a></li>
+<li><a href="#reusable-prompts-skills-and-subagents">दोबारा उपयोग होने वाले प्रॉम्प्ट, स्किल और सबएजेंट</a></li>
+<li><a href="#review-and-approval">समीक्षा और मंज़ूरी</a></li>
+<li><a href="#running-agents-side-by-side">एजेंटों को साथ-साथ चलाना</a></li>
+<li><a href="#agents-in-ci">CI में एजेंट</a></li>
+<li><a href="#frameworks-with-a-person-in-the-loop">जिन फ़्रेमवर्क में इंसान शामिल रहता है</a></li>
+<li><a href="#related-lists">संबंधित सूचियाँ</a></li>
+</ul>
+<h2 id="featured">विशेष</h2>
+<ul>
+<li><a href="https://github.com/thirstyeggplant/aubergine">Aubergine</a> - ब्राउज़र में कैनवास पर टर्मिनल, ऐसे वर्कफ़्लो के साथ जिनके चरण मालिक की मंज़ूरी का इंतज़ार कर सकते हैं, एक टास्क कतार और इस्तेमाल से पहले जाँचे जाने वाले ड्राफ़्ट। <em>(इस सूची के मालिकों द्वारा बनाया गया।)</em></li>
+</ul>
+<h2 id="principles-and-guides">सिद्धांत और गाइड</h2>
+<ul>
+<li><a href="https://www.anthropic.com/engineering/building-effective-agents">असरदार एजेंट बनाना</a> - वर्कफ़्लो और एजेंटों के लिए Anthropic के पैटर्न, प्रॉम्प्ट चेनिंग से लेकर ऑर्केस्ट्रेटर और वर्कर तक।</li>
+<li><a href="https://www.anthropic.com/engineering/claude-code-best-practices">Claude Code के सर्वोत्तम तरीके</a> - खोजें, योजना बनाएँ, कोड करें और commit करें, ऐसे पड़ावों के साथ जहाँ इंसान बीच में आ सके।</li>
+<li><a href="https://github.com/humanlayer/12-factor-agents">12-Factor Agents</a> - प्रोडक्शन लायक़ भरोसेमंद एजेंटों के सिद्धांत, जिनमें लोगों से संपर्क को टूल कॉल की तरह करना भी शामिल है।</li>
+</ul>
+<h2 id="instruction-files-and-standards">निर्देश फ़ाइलें और मानक</h2>
+<ul>
+<li><a href="https://agents.md">AGENTS.md</a> - रिपॉज़िटरी में एक सादी Markdown फ़ाइल, जो किसी भी कोडिंग एजेंट को बताती है कि बिल्ड, टेस्ट कैसे करें और नियमों का पालन कैसे करें।</li>
+<li><a href="https://modelcontextprotocol.io">Model Context Protocol</a> - एजेंटों को टूल और संदर्भ देने का खुला प्रोटोकॉल, साथ में इसका <a href="https://github.com/modelcontextprotocol/modelcontextprotocol">विनिर्देश</a>.</li>
+<li><a href="https://github.com/anthropics/skills">Agent Skills</a> - निर्देशों और स्क्रिप्ट के फ़ोल्डर, जिन्हें एजेंट ज़रूरत पड़ने पर लोड करता है।</li>
+<li><a href="https://docs.claude.com/en/docs/claude-code/hooks">Claude Code hooks</a> - एजेंट की बारी के तय बिंदुओं पर चलने वाले कमांड, उन जाँचों के लिए जो मॉडल की याददाश्त पर निर्भर नहीं होनी चाहिए।</li>
+</ul>
+<h2 id="planning-and-spec-driven-development">योजना और स्पेक-आधारित डेवलपमेंट</h2>
+<ul>
+<li><a href="https://github.com/github/spec-kit">Spec Kit</a> - एजेंट के कोड लिखने से पहले स्पेक, योजना और टास्क लिखने के लिए GitHub का टूलकिट।</li>
+<li><a href="https://github.com/Fission-AI/OpenSpec">OpenSpec</a> - स्पेक-आधारित डेवलपमेंट, जिसमें हर बदलाव रिपॉज़िटरी में फ़ाइलों के रूप में प्रस्तावित, समीक्षित और संग्रहित होता है।</li>
+<li><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD Method</a> - एजेंटों द्वारा निभाई जाने वाली एजाइल भूमिकाएँ, एनालिस्ट और आर्किटेक्ट से लेकर डेवलपर और QA तक।</li>
+<li><a href="https://github.com/buildermethods/agent-os">Agent OS</a> - कोडबेस के मानकों और स्पेक को ऐसी फ़ाइलों में लिखता है जिनसे एजेंट काम करते हैं।</li>
+<li><a href="https://github.com/obra/superpowers">Superpowers</a> - एक स्किल लाइब्रेरी जो एजेंट को विचार-मंथन, योजना, टेस्ट-ड्रिवन डेवलपमेंट और समीक्षा से गुज़ारती है।</li>
+</ul>
+<h2 id="task-tracking-for-agents">एजेंटों के लिए टास्क ट्रैकिंग</h2>
+<ul>
+<li><a href="https://github.com/eyaltoledano/claude-task-master">Task Master</a> - प्रोडक्ट दस्तावेज़ को आपस में जुड़े टास्क में बदलता है, जिन्हें एजेंट एक-एक करके पूरा करता है।</li>
+<li><a href="https://github.com/gastownhall/beads">Beads</a> - रिपॉज़िटरी में रखा इश्यू ट्रैकर, जो एजेंटों के लिए काम दर्ज करने, उठाने और बंद करने के लिए बना है।</li>
+<li><a href="https://github.com/MrLesk/Backlog.md">Backlog.md</a> - Git में एक Markdown टास्क बोर्ड, जिसे लोग और एजेंट साझा करते हैं।</li>
+</ul>
+<h2 id="reusable-prompts-skills-and-subagents">दोबारा उपयोग होने वाले प्रॉम्प्ट, स्किल और सबएजेंट</h2>
+<ul>
+<li><a href="https://github.com/github/awesome-copilot">Awesome Copilot</a> - GitHub Copilot के लिए समुदाय के निर्देश, प्रॉम्प्ट, एजेंट और स्किल।</li>
+<li><a href="https://github.com/PatrickJS/awesome-cursorrules">Awesome CursorRules</a> - Cursor के लिए नियम फ़ाइलें, भाषा और फ़्रेमवर्क के अनुसार।</li>
+<li><a href="https://github.com/wshobson/agents">Agents by wshobson</a> - प्लगइन, सबएजेंट और कमांड जो एक बार Markdown में लिखे जाते हैं और कई कोडिंग एजेंटों के लिए बनाए जाते हैं।</li>
+<li><a href="https://github.com/VoltAgent/awesome-claude-code-subagents">Awesome Claude Code Subagents</a> - सौ से ज़्यादा विशेष सबएजेंट परिभाषाएँ।</li>
+<li><a href="https://github.com/anthropics/claude-cookbooks">Claude Cookbooks</a> - पैटर्न वाली नोटबुक, जिनमें एजेंट वर्कफ़्लो और टूल का उपयोग शामिल है।</li>
+</ul>
+<h2 id="review-and-approval">समीक्षा और मंज़ूरी</h2>
+<ul>
+<li><a href="https://github.com/humanlayer/humanlayer">HumanLayer</a> - कठिन समस्याओं पर कोडिंग एजेंटों के वर्कफ़्लो, जिनमें शोध, योजना और कार्यान्वयन के चरणों की समीक्षा इंसान करता है।</li>
+<li><a href="https://github.com/The-PR-Agent/pr-agent">PR-Agent</a> - एक ओपन सोर्स रिव्यूअर जो pull request पर टिप्पणी करता है, इंसानी समीक्षा के साथ दूसरी जाँच।</li>
+<li><a href="https://github.com/anthropics/claude-code-security-review">Claude Code Security Review</a> - एक GitHub Action जो हर बदलाव में सुरक्षा समस्याएँ जाँचता है।</li>
+</ul>
+<h2 id="running-agents-side-by-side">एजेंटों को साथ-साथ चलाना</h2>
+<ul>
+<li><a href="https://github.com/smtg-ai/claude-squad">Claude Squad</a> - एक साथ कई टर्मिनल एजेंट, हर एक अपने Git worktree में, एक ही टर्मिनल से संभाले जाते हैं।</li>
+<li><a href="https://github.com/dagger/container-use">Container Use</a> - हर एजेंट के लिए एक कंटेनर और एक ब्रांच, ताकि कई एजेंट बिना टकराए एक प्रोजेक्ट पर काम करें।</li>
+<li><a href="https://github.com/stravu/crystal">Crystal</a> - worktree में समानांतर एजेंट सत्रों के लिए डेस्कटॉप ऐप, तरीकों की तुलना के लिए (अब Nimbalyst)।</li>
+<li><a href="https://github.com/ruvnet/ruflo">Ruflo</a> - Claude Code और दूसरे एजेंटों के इर्द-गिर्द साझा मेमोरी वाले एजेंट झुंडों का तालमेल करता है।</li>
+</ul>
+<h2 id="agents-in-ci">CI में एजेंट</h2>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code-action">Claude Code Action</a> - GitHub Actions में issue और pull request से Claude Code चलाता है।</li>
+<li><a href="https://github.com/OpenHands/OpenHands">OpenHands</a> - कोडिंग एजेंटों के लिए खुला प्लेटफ़ॉर्म जो लोकल, क्लाउड में या CI में बिना इंटरफ़ेस के चलता है।</li>
+<li><a href="https://github.com/SWE-agent/SWE-agent">SWE-agent</a> - GitHub issue लेकर आपके चुने हुए भाषा मॉडल से उसे ठीक करने की कोशिश करता है।</li>
+</ul>
+<h2 id="frameworks-with-a-person-in-the-loop">जिन फ़्रेमवर्क में इंसान शामिल रहता है</h2>
+<ul>
+<li><a href="https://github.com/langchain-ai/langgraph">LangGraph</a> - ग्राफ़ के रूप में एजेंट, जो <a href="https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/">किसी व्यक्ति के लिए रुक</a> सकते हैं और सहेजी गई स्थिति से फिर शुरू हो सकते हैं।</li>
+<li><a href="https://github.com/openai/openai-agents-python">OpenAI Agents SDK</a> - हैंडऑफ़ और गार्डरेल वाले मल्टी-एजेंट वर्कफ़्लो के लिए छोटा फ़्रेमवर्क।</li>
+<li><a href="https://github.com/crewAIInc/crewAI">CrewAI</a> - भूमिकाएँ निभाने वाले एजेंटों का संचालन करता है, ऐसे टास्क के साथ जो इंसान से इनपुट माँग सकते हैं।</li>
+</ul>
+<h2 id="related-lists">संबंधित सूचियाँ</h2>
+<ul>
+<li><a href="https://github.com/hesreallyhim/awesome-claude-code">Awesome Claude Code</a> - Claude Code के लिए स्किल, हुक, कमांड और टूल।</li>
+</ul>
+<h2 id="contributing">योगदान</h2>
+<p>योगदान का स्वागत है। पहले <a href="contributing.md">योगदान दिशानिर्देश</a> पढ़ें।</p>
+
+<p id="empty" class="empty hidden">कोई मिलान नहीं</p>
+</main>
+</div>
+<footer><div class="bar"><span>MIT · <a href="https://github.com/thirstyeggplant/awesome-agent-workflows">thirstyeggplant/awesome-agent-workflows</a></span><span>🍆 <a href="https://github.com/thirstyeggplant/aubergine">Aubergine</a></span></div></footer>
+<script src="../app.js"></script>
+</body>
+</html>
