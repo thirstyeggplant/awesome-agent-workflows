@@ -5,7 +5,7 @@
 এই তালিকা এজেন্ট নিয়ে নয়, বরং এজেন্টের চারপাশের কাজ নিয়ে: একটি কাজ কীভাবে লেখা হয়, ভাগ করা হয়, হস্তান্তর করা হয়, যাচাই ও অনুমোদন করা হয়। আলাদা করে উল্লেখ না থাকলে সব এন্ট্রি ওপেন সোর্স বা বিনামূল্যে পড়া যায়।
 
 <!-- lang-bar -->
-**🔗 ওয়েবসাইট: [https://thirstyeggplant.github.io/awesome-agent-workflows/bn/](https://thirstyeggplant.github.io/awesome-agent-workflows/bn/)**
+🔗 **ওয়েবসাইট:** [https://thirstyeggplant.github.io/awesome-agent-workflows/bn/](https://thirstyeggplant.github.io/awesome-agent-workflows/bn/)
 
 🌐 [English](readme.md) · [简体中文](readme.zh-CN.md) · [Español](readme.es.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · **বাংলা** · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md)
 <!-- /lang-bar -->

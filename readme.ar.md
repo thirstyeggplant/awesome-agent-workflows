@@ -8,7 +8,7 @@
 تتناول هذه القائمة العمل المحيط بالوكيل لا الوكيل نفسه: كيف تُكتب المهمة وتُقسَّم وتُسلَّم وتُراجَع وتُعتمد. العناصر مفتوحة المصدر أو متاحة للقراءة مجانًا ما لم يُذكر غير ذلك.
 
 <!-- lang-bar -->
-**🔗 الموقع: [https://thirstyeggplant.github.io/awesome-agent-workflows/ar/](https://thirstyeggplant.github.io/awesome-agent-workflows/ar/)**
+🔗 **الموقع:** [https://thirstyeggplant.github.io/awesome-agent-workflows/ar/](https://thirstyeggplant.github.io/awesome-agent-workflows/ar/)
 
 🌐 [English](readme.md) · [简体中文](readme.zh-CN.md) · [Español](readme.es.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · **العربية**
 <!-- /lang-bar -->

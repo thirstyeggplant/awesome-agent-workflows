@@ -5,7 +5,7 @@
 यह सूची एजेंट के बारे में कम और उसके आसपास के काम के बारे में ज़्यादा है: कोई काम कैसे लिखा जाता है, बाँटा जाता है, सौंपा जाता है, जाँचा जाता है और मंज़ूर होता है। जब तक अलग से न लिखा हो, प्रविष्टियाँ ओपन सोर्स हैं या मुफ़्त में पढ़ी जा सकती हैं।
 
 <!-- lang-bar -->
-**🔗 वेबसाइट: [https://thirstyeggplant.github.io/awesome-agent-workflows/hi/](https://thirstyeggplant.github.io/awesome-agent-workflows/hi/)**
+🔗 **वेबसाइट:** [https://thirstyeggplant.github.io/awesome-agent-workflows/hi/](https://thirstyeggplant.github.io/awesome-agent-workflows/hi/)
 
 🌐 [English](readme.md) · [简体中文](readme.zh-CN.md) · [Español](readme.es.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · **हिन्दी** · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md)
 <!-- /lang-bar -->

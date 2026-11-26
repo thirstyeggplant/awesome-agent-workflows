@@ -5,7 +5,7 @@
 このリストが扱うのはエージェントそのものではなく、その周りの仕事です。タスクをどう書き、分割し、引き渡し、確認し、承認するか。特に記載がない限り、項目はオープンソースか自由に読めるものです。
 
 <!-- lang-bar -->
-**🔗 ウェブサイト: [https://thirstyeggplant.github.io/awesome-agent-workflows/ja/](https://thirstyeggplant.github.io/awesome-agent-workflows/ja/)**
+🔗 **ウェブサイト:** [https://thirstyeggplant.github.io/awesome-agent-workflows/ja/](https://thirstyeggplant.github.io/awesome-agent-workflows/ja/)
 
 🌐 [English](readme.md) · [简体中文](readme.zh-CN.md) · [Español](readme.es.md) · **日本語** · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md)
 <!-- /lang-bar -->

@@ -5,7 +5,7 @@
 This list is about the work around an agent rather than the agent itself: how a task is written down, broken up, handed over, checked and approved. Entries are open source or freely readable unless marked otherwise.
 
 <!-- lang-bar -->
-**🔗 Website: [https://thirstyeggplant.github.io/awesome-agent-workflows/](https://thirstyeggplant.github.io/awesome-agent-workflows/)**
+🔗 **Website:** [https://thirstyeggplant.github.io/awesome-agent-workflows/](https://thirstyeggplant.github.io/awesome-agent-workflows/)
 
 🌐 **English** · [简体中文](readme.zh-CN.md) · [Español](readme.es.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md)
 <!-- /lang-bar -->

@@ -5,7 +5,7 @@
 이 목록은 에이전트 자체가 아니라 에이전트를 둘러싼 일에 관한 것입니다. 작업을 어떻게 적고, 나누고, 넘기고, 확인하고, 승인하는지. 따로 표시하지 않은 항목은 오픈 소스이거나 자유롭게 읽을 수 있습니다.
 
 <!-- lang-bar -->
-**🔗 웹사이트: [https://thirstyeggplant.github.io/awesome-agent-workflows/ko/](https://thirstyeggplant.github.io/awesome-agent-workflows/ko/)**
+🔗 **웹사이트:** [https://thirstyeggplant.github.io/awesome-agent-workflows/ko/](https://thirstyeggplant.github.io/awesome-agent-workflows/ko/)
 
 🌐 [English](readme.md) · [简体中文](readme.zh-CN.md) · [Español](readme.es.md) · [日本語](readme.ja.md) · **한국어** · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md)
 <!-- /lang-bar -->
