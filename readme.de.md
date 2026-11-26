@@ -5,7 +5,9 @@
 Diese Liste dreht sich um die Arbeit rund um einen Agenten, nicht um den Agenten selbst: wie eine Aufgabe aufgeschrieben, aufgeteilt, übergeben, geprüft und freigegeben wird. Einträge sind Open Source oder frei lesbar, sofern nicht anders vermerkt.
 
 <!-- lang-bar -->
-🌐 [English](readme.md) · [简体中文](readme.zh-CN.md) · [Español](readme.es.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · **Deutsch** · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md) · 🔗 [Website](https://thirstyeggplant.github.io/awesome-agent-workflows/de/)
+**🔗 Website: [https://thirstyeggplant.github.io/awesome-agent-workflows/de/](https://thirstyeggplant.github.io/awesome-agent-workflows/de/)**
+
+🌐 [English](readme.md) · [简体中文](readme.zh-CN.md) · [Español](readme.es.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · **Deutsch** · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md)
 <!-- /lang-bar -->
 
 <sub>Übersetzung der englischen Fassung. Namen von Tools und Websites bleiben im Original.</sub>

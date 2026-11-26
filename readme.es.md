@@ -5,7 +5,9 @@
 Esta lista trata del trabajo alrededor de un agente más que del agente en sí: cómo se escribe una tarea, cómo se divide, se entrega, se revisa y se aprueba. Las entradas son de código abierto o de lectura libre salvo que se indique lo contrario.
 
 <!-- lang-bar -->
-🌐 [English](readme.md) · [简体中文](readme.zh-CN.md) · **Español** · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md) · 🔗 [Sitio web](https://thirstyeggplant.github.io/awesome-agent-workflows/es/)
+**🔗 Sitio web: [https://thirstyeggplant.github.io/awesome-agent-workflows/es/](https://thirstyeggplant.github.io/awesome-agent-workflows/es/)**
+
+🌐 [English](readme.md) · [简体中文](readme.zh-CN.md) · **Español** · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md)
 <!-- /lang-bar -->
 
 <sub>Traducción de la versión en inglés. Los nombres de herramientas y sitios se mantienen en su idioma original.</sub>

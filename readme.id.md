@@ -5,7 +5,9 @@
 Daftar ini membahas pekerjaan di sekitar agen, bukan agennya sendiri: bagaimana tugas ditulis, dipecah, diserahkan, diperiksa, dan disetujui. Entri bersifat open source atau bebas dibaca kecuali disebutkan lain.
 
 <!-- lang-bar -->
-🌐 [English](readme.md) · [简体中文](readme.zh-CN.md) · [Español](readme.es.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · **Bahasa Indonesia** · [العربية](readme.ar.md) · 🔗 [Situs web](https://thirstyeggplant.github.io/awesome-agent-workflows/id/)
+**🔗 Situs web: [https://thirstyeggplant.github.io/awesome-agent-workflows/id/](https://thirstyeggplant.github.io/awesome-agent-workflows/id/)**
+
+🌐 [English](readme.md) · [简体中文](readme.zh-CN.md) · [Español](readme.es.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · **Bahasa Indonesia** · [العربية](readme.ar.md)
 <!-- /lang-bar -->
 
 <sub>Terjemahan dari versi bahasa Inggris. Nama alat dan situs dibiarkan seperti aslinya.</sub>

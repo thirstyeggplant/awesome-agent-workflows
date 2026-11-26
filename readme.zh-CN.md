@@ -5,7 +5,9 @@
 本列表关注的是智能体周围的工作，而不是智能体本身：任务如何被写下、拆分、移交、检查和批准。除非另有说明，条目均为开源或可免费阅读。
 
 <!-- lang-bar -->
-🌐 [English](readme.md) · **简体中文** · [Español](readme.es.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md) · 🔗 [网站](https://thirstyeggplant.github.io/awesome-agent-workflows/zh-CN/)
+**🔗 网站: [https://thirstyeggplant.github.io/awesome-agent-workflows/zh-CN/](https://thirstyeggplant.github.io/awesome-agent-workflows/zh-CN/)**
+
+🌐 [English](readme.md) · **简体中文** · [Español](readme.es.md) · [日本語](readme.ja.md) · [한국어](readme.ko.md) · [Português (BR)](readme.pt-BR.md) · [Français](readme.fr.md) · [Deutsch](readme.de.md) · [हिन्दी](readme.hi.md) · [বাংলা](readme.bn.md) · [Bahasa Indonesia](readme.id.md) · [العربية](readme.ar.md)
 <!-- /lang-bar -->
 
 <sub>本页译自英文版。工具和网站名称保留原文。</sub>
