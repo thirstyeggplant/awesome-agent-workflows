@@ -2,6 +2,8 @@
 
 > 与 AI 编程智能体协作的可复用方法：计划与规格、任务队列、可复用的提示词和技能、评审检查点，以及等待人工确认的步骤。
 
+**推荐：** [Aubergine](https://github.com/thirstyeggplant/aubergine) - 浏览器画布上的终端，带有可等待所有者批准的工作流步骤、任务队列，以及使用前需审阅的草稿。*（由本列表的维护者开发。）*
+
 本列表关注的是智能体周围的工作，而不是智能体本身：任务如何被写下、拆分、移交、检查和批准。除非另有说明，条目均为开源或可免费阅读。
 
 <!-- lang-bar -->
@@ -14,8 +16,6 @@
 
 <a id="contents"></a>
 ## 目录
-
-- [精选推荐](#featured)
 - [原则与指南](#principles-and-guides)
 - [指令文件与标准](#instruction-files-and-standards)
 - [规划与规格驱动开发](#planning-and-spec-driven-development)
@@ -26,11 +26,6 @@
 - [CI 中的智能体](#agents-in-ci)
 - [有人参与环节的框架](#frameworks-with-a-person-in-the-loop)
 - [相关列表](#related-lists)
-
-<a id="featured"></a>
-## 精选推荐
-
-- [Aubergine](https://github.com/thirstyeggplant/aubergine) - 浏览器画布上的终端，带有可等待所有者批准的工作流步骤、任务队列，以及使用前需审阅的草稿。*（由本列表的维护者开发。）*
 
 <a id="principles-and-guides"></a>
 ## 原则与指南

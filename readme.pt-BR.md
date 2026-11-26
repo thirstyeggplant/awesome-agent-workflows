@@ -2,6 +2,8 @@
 
 > Formas repetíveis de trabalhar com agentes de programação com IA: planos e especificações, filas de tarefas, prompts e skills reutilizáveis, pontos de revisão e etapas que esperam por uma pessoa.
 
+**Destaque:** [Aubergine](https://github.com/thirstyeggplant/aubergine) - Terminais em uma tela no navegador, com fluxos cujas etapas podem esperar a aprovação do dono, uma fila de tarefas e rascunhos revisados antes do uso. *(Mantido pelos donos desta lista.)*
+
 Esta lista trata do trabalho em volta de um agente, e não do agente em si: como uma tarefa é escrita, dividida, entregue, conferida e aprovada. Os itens são open source ou de leitura livre, salvo indicação em contrário.
 
 <!-- lang-bar -->
@@ -14,8 +16,6 @@ Esta lista trata do trabalho em volta de um agente, e não do agente em si: como
 
 <a id="contents"></a>
 ## Conteúdo
-
-- [Destaque](#featured)
 - [Princípios e guias](#principles-and-guides)
 - [Arquivos de instruções e padrões](#instruction-files-and-standards)
 - [Planejamento e desenvolvimento guiado por especificações](#planning-and-spec-driven-development)
@@ -26,11 +26,6 @@ Esta lista trata do trabalho em volta de um agente, e não do agente em si: como
 - [Agentes em CI](#agents-in-ci)
 - [Frameworks com uma pessoa no circuito](#frameworks-with-a-person-in-the-loop)
 - [Listas relacionadas](#related-lists)
-
-<a id="featured"></a>
-## Destaque
-
-- [Aubergine](https://github.com/thirstyeggplant/aubergine) - Terminais em uma tela no navegador, com fluxos cujas etapas podem esperar a aprovação do dono, uma fila de tarefas e rascunhos revisados antes do uso. *(Mantido pelos donos desta lista.)*
 
 <a id="principles-and-guides"></a>
 ## Princípios e guias

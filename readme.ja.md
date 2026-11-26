@@ -2,6 +2,8 @@
 
 > AI コーディングエージェントと働くための再現可能な方法：計画と仕様、タスクキュー、再利用できるプロンプトとスキル、レビューの関門、そして人を待つステップ。
 
+**注目：** [Aubergine](https://github.com/thirstyeggplant/aubergine) - ブラウザのキャンバス上のターミナル。オーナーの承認を待てるステップを持つワークフロー、タスクキュー、使う前にレビューする下書きを備えています。*（このリストの管理者が開発しています。）*
+
 このリストが扱うのはエージェントそのものではなく、その周りの仕事です。タスクをどう書き、分割し、引き渡し、確認し、承認するか。特に記載がない限り、項目はオープンソースか自由に読めるものです。
 
 <!-- lang-bar -->
@@ -14,8 +16,6 @@
 
 <a id="contents"></a>
 ## 目次
-
-- [注目](#featured)
 - [原則とガイド](#principles-and-guides)
 - [指示ファイルと標準](#instruction-files-and-standards)
 - [計画と仕様駆動開発](#planning-and-spec-driven-development)
@@ -26,11 +26,6 @@
 - [CI のエージェント](#agents-in-ci)
 - [人が介在するフレームワーク](#frameworks-with-a-person-in-the-loop)
 - [関連リスト](#related-lists)
-
-<a id="featured"></a>
-## 注目
-
-- [Aubergine](https://github.com/thirstyeggplant/aubergine) - ブラウザのキャンバス上のターミナル。オーナーの承認を待てるステップを持つワークフロー、タスクキュー、使う前にレビューする下書きを備えています。*（このリストの管理者が開発しています。）*
 
 <a id="principles-and-guides"></a>
 ## 原則とガイド

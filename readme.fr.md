@@ -2,6 +2,8 @@
 
 > Des façons reproductibles de travailler avec des agents de code IA : plans et spécifications, files de tâches, prompts et skills réutilisables, points de relecture et étapes qui attendent une personne.
 
+**À la une :** [Aubergine](https://github.com/thirstyeggplant/aubergine) - Des terminaux sur un canevas dans le navigateur, avec des workflows dont les étapes peuvent attendre l’accord du propriétaire, une file de tâches et des brouillons relus avant usage. *(Maintenu par les auteurs de cette liste.)*
+
 Cette liste porte sur le travail autour d’un agent plutôt que sur l’agent lui-même : comment une tâche est rédigée, découpée, transmise, vérifiée et validée. Les entrées sont open source ou librement consultables, sauf mention contraire.
 
 <!-- lang-bar -->
@@ -14,8 +16,6 @@ Cette liste porte sur le travail autour d’un agent plutôt que sur l’agent l
 
 <a id="contents"></a>
 ## Sommaire
-
-- [À la une](#featured)
 - [Principes et guides](#principles-and-guides)
 - [Fichiers d’instructions et standards](#instruction-files-and-standards)
 - [Planification et développement piloté par les spécifications](#planning-and-spec-driven-development)
@@ -26,11 +26,6 @@ Cette liste porte sur le travail autour d’un agent plutôt que sur l’agent l
 - [Agents en CI](#agents-in-ci)
 - [Frameworks avec une personne dans la boucle](#frameworks-with-a-person-in-the-loop)
 - [Listes connexes](#related-lists)
-
-<a id="featured"></a>
-## À la une
-
-- [Aubergine](https://github.com/thirstyeggplant/aubergine) - Des terminaux sur un canevas dans le navigateur, avec des workflows dont les étapes peuvent attendre l’accord du propriétaire, une file de tâches et des brouillons relus avant usage. *(Maintenu par les auteurs de cette liste.)*
 
 <a id="principles-and-guides"></a>
 ## Principes et guides

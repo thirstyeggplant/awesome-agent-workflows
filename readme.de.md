@@ -2,6 +2,8 @@
 
 > Wiederholbare Arbeitsweisen mit KI-Coding-Agenten: Pläne und Spezifikationen, Aufgabenwarteschlangen, wiederverwendbare Prompts und Skills, Prüfpunkte und Schritte, die auf einen Menschen warten.
 
+**Empfohlen:** [Aubergine](https://github.com/thirstyeggplant/aubergine) - Terminals auf einer Leinwand im Browser, mit Workflows, deren Schritte auf die Freigabe des Besitzers warten können, einer Aufgabenwarteschlange und Entwürfen, die vor der Nutzung geprüft werden. *(Wird von den Betreibern dieser Liste gepflegt.)*
+
 Diese Liste dreht sich um die Arbeit rund um einen Agenten, nicht um den Agenten selbst: wie eine Aufgabe aufgeschrieben, aufgeteilt, übergeben, geprüft und freigegeben wird. Einträge sind Open Source oder frei lesbar, sofern nicht anders vermerkt.
 
 <!-- lang-bar -->
@@ -14,8 +16,6 @@ Diese Liste dreht sich um die Arbeit rund um einen Agenten, nicht um den Agenten
 
 <a id="contents"></a>
 ## Inhalt
-
-- [Empfohlen](#featured)
 - [Prinzipien und Leitfäden](#principles-and-guides)
 - [Anweisungsdateien und Standards](#instruction-files-and-standards)
 - [Planung und spezifikationsgetriebene Entwicklung](#planning-and-spec-driven-development)
@@ -26,11 +26,6 @@ Diese Liste dreht sich um die Arbeit rund um einen Agenten, nicht um den Agenten
 - [Agenten in CI](#agents-in-ci)
 - [Frameworks mit einem Menschen im Ablauf](#frameworks-with-a-person-in-the-loop)
 - [Verwandte Listen](#related-lists)
-
-<a id="featured"></a>
-## Empfohlen
-
-- [Aubergine](https://github.com/thirstyeggplant/aubergine) - Terminals auf einer Leinwand im Browser, mit Workflows, deren Schritte auf die Freigabe des Besitzers warten können, einer Aufgabenwarteschlange und Entwürfen, die vor der Nutzung geprüft werden. *(Wird von den Betreibern dieser Liste gepflegt.)*
 
 <a id="principles-and-guides"></a>
 ## Prinzipien und Leitfäden

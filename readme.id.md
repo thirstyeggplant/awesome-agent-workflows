@@ -2,6 +2,8 @@
 
 > Cara kerja yang bisa diulang bersama agen coding AI: rencana dan spesifikasi, antrean tugas, prompt dan skill yang bisa dipakai ulang, titik tinjauan, dan langkah yang menunggu manusia.
 
+**Unggulan:** [Aubergine](https://github.com/thirstyeggplant/aubergine) - Terminal di kanvas dalam browser, dengan alur kerja yang langkahnya bisa menunggu persetujuan pemilik, antrean tugas, dan draf yang ditinjau sebelum dipakai. *(Dikelola oleh pemilik daftar ini.)*
+
 Daftar ini membahas pekerjaan di sekitar agen, bukan agennya sendiri: bagaimana tugas ditulis, dipecah, diserahkan, diperiksa, dan disetujui. Entri bersifat open source atau bebas dibaca kecuali disebutkan lain.
 
 <!-- lang-bar -->
@@ -14,8 +16,6 @@ Daftar ini membahas pekerjaan di sekitar agen, bukan agennya sendiri: bagaimana 
 
 <a id="contents"></a>
 ## Daftar isi
-
-- [Unggulan](#featured)
 - [Prinsip dan panduan](#principles-and-guides)
 - [File instruksi dan standar](#instruction-files-and-standards)
 - [Perencanaan dan pengembangan berbasis spesifikasi](#planning-and-spec-driven-development)
@@ -26,11 +26,6 @@ Daftar ini membahas pekerjaan di sekitar agen, bukan agennya sendiri: bagaimana 
 - [Agen di CI](#agents-in-ci)
 - [Framework dengan manusia dalam alur](#frameworks-with-a-person-in-the-loop)
 - [Daftar terkait](#related-lists)
-
-<a id="featured"></a>
-## Unggulan
-
-- [Aubergine](https://github.com/thirstyeggplant/aubergine) - Terminal di kanvas dalam browser, dengan alur kerja yang langkahnya bisa menunggu persetujuan pemilik, antrean tugas, dan draf yang ditinjau sebelum dipakai. *(Dikelola oleh pemilik daftar ini.)*
 
 <a id="principles-and-guides"></a>
 ## Prinsip dan panduan

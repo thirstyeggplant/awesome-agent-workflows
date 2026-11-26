@@ -2,6 +2,8 @@
 
 > AI 코딩 에이전트와 일하는 반복 가능한 방법: 계획과 명세, 작업 큐, 재사용 가능한 프롬프트와 스킬, 리뷰 체크포인트, 그리고 사람을 기다리는 단계.
 
+**추천:** [Aubergine](https://github.com/thirstyeggplant/aubergine) - 브라우저 캔버스 위의 터미널. 소유자의 승인을 기다릴 수 있는 단계로 된 워크플로, 작업 큐, 사용 전에 검토하는 초안을 제공합니다. *(이 목록의 관리자가 만들었습니다.)*
+
 이 목록은 에이전트 자체가 아니라 에이전트를 둘러싼 일에 관한 것입니다. 작업을 어떻게 적고, 나누고, 넘기고, 확인하고, 승인하는지. 따로 표시하지 않은 항목은 오픈 소스이거나 자유롭게 읽을 수 있습니다.
 
 <!-- lang-bar -->
@@ -14,8 +16,6 @@
 
 <a id="contents"></a>
 ## 목차
-
-- [추천](#featured)
 - [원칙과 가이드](#principles-and-guides)
 - [지시 파일과 표준](#instruction-files-and-standards)
 - [계획과 명세 기반 개발](#planning-and-spec-driven-development)
@@ -26,11 +26,6 @@
 - [CI 속 에이전트](#agents-in-ci)
 - [사람이 참여하는 프레임워크](#frameworks-with-a-person-in-the-loop)
 - [관련 목록](#related-lists)
-
-<a id="featured"></a>
-## 추천
-
-- [Aubergine](https://github.com/thirstyeggplant/aubergine) - 브라우저 캔버스 위의 터미널. 소유자의 승인을 기다릴 수 있는 단계로 된 워크플로, 작업 큐, 사용 전에 검토하는 초안을 제공합니다. *(이 목록의 관리자가 만들었습니다.)*
 
 <a id="principles-and-guides"></a>
 ## 원칙과 가이드

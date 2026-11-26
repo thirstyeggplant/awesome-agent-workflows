@@ -2,6 +2,8 @@
 
 > Repeatable ways of working with AI coding agents: plans and specs, task queues, reusable prompts and skills, review checkpoints, and steps that wait for a person.
 
+**Featured:** [Aubergine](https://github.com/thirstyeggplant/aubergine) - Terminals on a canvas in the browser, with workflows whose steps can wait for the owner's approval, a task queue and drafts reviewed before use. *(Maintained by the owners of this list.)*
+
 This list is about the work around an agent rather than the agent itself: how a task is written down, broken up, handed over, checked and approved. Entries are open source or freely readable unless marked otherwise.
 
 <!-- lang-bar -->
@@ -11,8 +13,6 @@ This list is about the work around an agent rather than the agent itself: how a 
 <!-- /lang-bar -->
 
 ## Contents
-
-- [Featured](#featured)
 - [Principles and guides](#principles-and-guides)
 - [Instruction files and standards](#instruction-files-and-standards)
 - [Planning and spec-driven development](#planning-and-spec-driven-development)
@@ -23,10 +23,6 @@ This list is about the work around an agent rather than the agent itself: how a 
 - [Agents in CI](#agents-in-ci)
 - [Frameworks with a person in the loop](#frameworks-with-a-person-in-the-loop)
 - [Related lists](#related-lists)
-
-## Featured
-
-- [Aubergine](https://github.com/thirstyeggplant/aubergine) - Terminals on a canvas in the browser, with workflows whose steps can wait for the owner's approval, a task queue and drafts reviewed before use. *(Maintained by the owners of this list.)*
 
 ## Principles and guides
 
